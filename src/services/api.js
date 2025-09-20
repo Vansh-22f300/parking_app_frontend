@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API Configuration - use relative URLs to work with Vite proxy
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api'; // This will be proxied to the Flask backend
+const API_BASE_URL = 'https://parkingappbackend-production-0014.up.railway.app';
 
 // Create axios instance with default configuration
 const apiClient = axios.create({
